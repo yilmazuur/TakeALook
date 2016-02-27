@@ -1,6 +1,6 @@
 # TakeALook
 Good .NET Web API service programming sample provided by myself. I have removed some of the business logic for security, so be aware of that when you check the code. Services are running on local IIS at port 88 (Do not forget to set it up). In this project you fill find:
- - Web API Solution Best Practices: a loosely coupled, scalable and testable Web API application
+ - **Web API Solution Best Practices:** a loosely coupled, scalable and testable Web API application
  - Entity Framework Code First: Mapping and Migration with explanations in comment lines
  - Generic Repository Pattern combined with UnitOfWork Pattern
  - Swagger(Swashbuckle) API Documentation
@@ -21,7 +21,7 @@ Project files are:
 
 You should check packages files of csproj files to see which package used for which layer.
 
-**After you download the application enable migration using package manager console: **
+**After you download the application enable migration using package manager console:**
 
     Enable-Migrations –EnableAutomaticMigrations -Force -Verbose
 
