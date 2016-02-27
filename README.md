@@ -1,23 +1,23 @@
 # TakeALook
 Good .NET Web API service programming sample provided by myself. I have removed some of the business logic for security, so be aware of that when you check the code. Services are running on local IIS at port 88 (Do not forget to set it up). In this project you fill find:
  - **Web API Solution Best Practices:** a loosely coupled, scalable and testable Web API application
- - Entity Framework Code First: Mapping and Migration with explanations in comment lines
- - Generic Repository Pattern combined with UnitOfWork Pattern
- - Swagger(Swashbuckle) API Documentation
+ - **Entity Framework Code First:** Mapping and Migration with explanations in comment lines
+ - **Generic Repository Pattern combined with UnitOfWork Pattern**
+ - **Swagger(Swashbuckle) API Documentation**
+ - **Test Driven Development (NUnit) :** Entity Framework and Web API controller testing
  - How to load external ascx controls from a dll using service calls: html and jquery/javascript 
- - Test Driven Development (NUnit) : Entity Framework and Web API controller testing
 
 
 Project files are: 
- - TakeALook.API : web application to host Web API. There are swagger documentation codesand configuration codes in here.
- - TakeALook.API.Core : contains Web API components such as Controllers and ServiceResponse.cs
- - TakeALook.Model : entity models are here.
- - TakeALook.Model.Interface : interfaces of entity models are here
- - TakeALook.Operation : this is an operation layer that contains business logic.
- - TakeALook.Operation.Interface : interfaces of operation layer are here.
- - TakeALook.Repository : contains db mappings, migration way, generic repository, unitOfWork and DBcontext.
- - TakeALook.Repository.Interface : interfaces of repository layer
- - TakeALook.UnitTest : unit tests are here. (used nunit)
+ - **TakeALook.API :** web application to host Web API. There are swagger documentation codesand configuration codes in here.
+ - **TakeALook.API.Core :** contains Web API components such as Controllers and ServiceResponse.cs
+ - **TakeALook.Model :** entity models are here.
+ - **TakeALook.Model.Interface :** interfaces of entity models are here
+ - **TakeALook.Operation :** this is an operation layer that contains business logic.
+ - **TakeALook.Operation.Interface :** interfaces of operation layer are here.
+ - **TakeALook.Repository :** contains db mappings, migration way, generic repository, unitOfWork and DBcontext.
+ - **TakeALook.Repository.Interface :** interfaces of repository layer
+ - **TakeALook.UnitTest :** unit tests are in here. (used NUnit)
 
 You should check packages files of csproj files to see which package used for which layer.
 
