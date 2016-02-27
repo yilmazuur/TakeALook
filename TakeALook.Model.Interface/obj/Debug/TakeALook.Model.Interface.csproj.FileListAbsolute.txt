@@ -1,0 +1,4 @@
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Model.Interface\bin\Debug\TakeALook.Model.Interface.dll
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Model.Interface\bin\Debug\TakeALook.Model.Interface.pdb
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Model.Interface\obj\Debug\TakeALook.Model.Interface.dll
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Model.Interface\obj\Debug\TakeALook.Model.Interface.pdb

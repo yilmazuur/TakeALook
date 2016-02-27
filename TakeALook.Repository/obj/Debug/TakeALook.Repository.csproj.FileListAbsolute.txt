@@ -1,0 +1,16 @@
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Repository\bin\Debug\TakeALook.Repository.dll.config
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Repository\bin\Debug\TakeALook.Repository.dll
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Repository\bin\Debug\TakeALook.Repository.pdb
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Repository\bin\Debug\EntityFramework.dll
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Repository\bin\Debug\TakeALook.Model.dll
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Repository\bin\Debug\TakeALook.Model.Interface.dll
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Repository\bin\Debug\TakeALook.Repository.Interface.dll
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Repository\bin\Debug\TakeALook.Model.Interface.pdb
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Repository\bin\Debug\TakeALook.Model.pdb
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Repository\bin\Debug\TakeALook.Repository.Interface.pdb
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Repository\bin\Debug\EntityFramework.xml
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Repository\obj\Debug\TakeALook.Repository.csprojResolveAssemblyReference.cache
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Repository\obj\Debug\TakeALook.Repository.dll
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Repository\obj\Debug\TakeALook.Repository.pdb

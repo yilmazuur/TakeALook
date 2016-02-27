@@ -1,0 +1,7 @@
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Operation.Interface\bin\Debug\TakeALook.Operation.Interface.dll
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Operation.Interface\bin\Debug\TakeALook.Operation.Interface.pdb
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Operation.Interface\bin\Debug\TakeALook.Model.Interface.dll
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Operation.Interface\bin\Debug\TakeALook.Model.Interface.pdb
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Operation.Interface\obj\Debug\TakeALook.Operation.Interface.csprojResolveAssemblyReference.cache
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Operation.Interface\obj\Debug\TakeALook.Operation.Interface.dll
+C:\Users\UGUR\Documents\GitHub\TakeALookServices\TakeALook.Operation.Interface\obj\Debug\TakeALook.Operation.Interface.pdb

@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TakeALook.API.Core</name>
+    </assembly>
+    <members>
+        <member name="T:TakeALook.API.Core.Controllers.PoiController">
+            <summary>
+            Poi servis
+            </summary>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.PoiController.#ctor">
+            <summary>
+            Ctor
+            </summary>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.PoiController.Dispose(System.Boolean)">
+            <summary>
+            Her işlem sonrası otomatik çalışır
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.PoiController.PostFile">
+            <summary>
+            Dosya ile poi yükleme
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:TakeALook.API.Core.Controllers.ReportController">
+            <summary>
+            Rapor üretimi
+            </summary>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.ReportController.#ctor">
+            <summary>
+            Ctor    
+            </summary>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.ReportController.Dispose(System.Boolean)">
+            <summary>
+            Her işlem sonrası otomatik çalışır
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.ReportController.Get(System.Double,System.Double,System.Double)">
+            <summary>
+            Rapor taslağını döner
+            </summary>
+            <returns>Rapor Taslağı</returns>
+        </member>
+        <member name="T:TakeALook.API.Core.Controllers.ReportTemplateController">
+            <summary>
+            Report Template servisi
+            </summary>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.ReportTemplateController.#ctor">
+            <summary>
+            Ctor    
+            </summary>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.ReportTemplateController.Dispose(System.Boolean)">
+            <summary>
+            Her işlem sonrası otomatik çalışır
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.ReportTemplateController.Get">
+            <summary>
+            Rapor taslağını döner
+            </summary>
+            <returns>Rapor Taslağı</returns>
+        </member>
+        <member name="T:TakeALook.API.Core.Controllers.PinNoteController">
+            <summary>
+            PinNote Servisi
+            </summary>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.PinNoteController.#ctor">
+            <summary>
+            Ctor
+            </summary>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.PinNoteController.Dispose(System.Boolean)">
+            <summary>
+            Her işlem sonrası otomatik çalışır
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.PinNoteController.Get">
+            <summary>
+            Tüm pin-not listesini getir
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.PinNoteController.GetByName(System.String)">
+            <summary>
+            İsminde verilen parametre geçen pin-not listesini getir
+            </summary>
+            <param name="param">PinNote Adı</param>
+            <returns></returns>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.PinNoteController.GetByUser(System.String)">
+            <summary>
+            Verilen kullanıcı bilgisine göre pin-not listesi getir
+            </summary>
+            <param name="param">Kullanıcı Adı</param>
+            <returns></returns>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.PinNoteController.Get(System.Int32)">
+            <summary>
+            Verilen id'e göre pin-not getir
+            </summary>
+            <param name="id">PinNote ID</param>
+            <remarks>Özel bir not bulunmamaktadır.</remarks>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.PinNoteController.PostToCreate(TakeALook.Model.PinNote)">
+            <summary>
+            Pin-not oluşturur
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.PinNoteController.PostToUpdate(TakeALook.Model.PinNote)">
+            <summary>
+            Eşleşen ID üzerinden pin-not update eder
+            </summary>
+            <param name="value">PinNote objesi</param>
+            <returns></returns>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.PinNoteController.Delete(System.Int32)">
+            <summary>
+            Eşleşen id üzerinden pin-not siler
+            </summary>
+            <param name="id">PinNote ID</param>
+            <returns></returns>
+        </member>
+        <member name="T:TakeALook.API.Core.Controllers.UserControlController">
+            <summary>
+            KendoUI controllerini dönen servis
+            </summary>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.UserControlController.#ctor">
+            <summary>
+            Ctor
+            </summary>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.UserControlController.Post(TakeALook.Model.UserControlRequest)">
+            <summary>
+            KendoUI HTML/js elementlerini döner
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+            <remarks>Name of control string olarak controlün adıdır ve input controlü besleyecek verilerdir</remarks>
+        </member>
+        <member name="T:TakeALook.API.Core.Controllers.InitController">
+            <summary>
+            User Servisi
+            </summary>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.InitController.#ctor">
+            <summary>
+            Ctor    
+            </summary>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.InitController.Dispose(System.Boolean)">
+            <summary>
+            Her işlem sonrası otomatik çalışır
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="M:TakeALook.API.Core.Controllers.InitController.Post(TakeALook.Model.User)">
+            <summary>
+            Kullanıcı var mı diye kontrol eder, yoksa create eder ve uygulama bileşenlerini döner
+            </summary>
+            <param name="value">User objesi</param>
+            <returns>User objesi</returns>
+        </member>
+        <member name="T:TakeALook.API.Core.ServiceResponse">
+            <summary>
+            ServiceCallarda dönülecek tek tip response
+            </summary>
+        </member>
+        <member name="M:TakeALook.API.Core.ServiceResponse.#ctor">
+            <summary>
+            Ctor
+            </summary>
+        </member>
+        <member name="M:TakeALook.API.Core.ServiceResponse.#ctor(System.String,System.Func{System.Object},System.String)">
+            <summary>
+            Tüm servislerin outputunda gönderilecek class bu olduğu için atamaları merkezileştirildi.
+            </summary>
+            <param name="userFriendlyErrorMessage"></param>
+            <param name="method"></param>
+        </member>
+        <member name="T:TakeALook.API.Core.ServiceException">
+            <summary>
+            Servicete bir hata alınırsa dönülecek exception
+            </summary>
+        </member>
+    </members>
+</doc>
