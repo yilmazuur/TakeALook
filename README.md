@@ -5,7 +5,7 @@ Good .NET Web API service programming sample coded by myself. I have removed som
  - **Generic Repository Pattern combined with UnitOfWork Pattern**
  - **Swagger(Swashbuckle) API Documentation**
  - **Test Driven Development (NUnit) :** Entity Framework and Web API controller testing
- - How to load external ascx controls from a dll using service calls: html and jquery/javascript 
+ - How to load external ascx controls from an assembly using service calls: html and jquery/javascript 
 
 
 Project files are: 
